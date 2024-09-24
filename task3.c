@@ -12,7 +12,7 @@ void main()
 	printf("     %6.0f \n", L);
 	printf("     _______\n");
 	printf("Ответ:\n");
-	printf("       %0+10.5f\n", n / L);
+	printf("       %2.2f\n", n / L);
 
 
 
