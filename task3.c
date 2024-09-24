@@ -6,8 +6,13 @@ void main()
 
 {
 	setlocale(LC_CTYPE, "RUS");
-	int L = 33, n = 2, k = 2, m = 2;
-	printf("%s%d%s%d%s%2.2f\n", "Деление числа ", n, " на число ", L, " равняется числу ", n / L);
+	float n = 3, L = 33;
+	printf("Р”Р°РЅРѕ:\n");
+	printf("     %6.0f \n", n);
+	printf("     %6.0f \n", L);
+	printf("     _______\n");
+	printf("РћС‚РІРµС‚:\n");
+	printf("       %0+10.5f\n", n / L);
 
 
 
